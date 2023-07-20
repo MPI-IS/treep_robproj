@@ -1,0 +1,11 @@
+AMENT:
+    repos: ['ament_cmake', 'ament_package', 'ament_googletest']
+
+CORE:
+    parent_projects: ['AMENT']
+    repos: ['googletest','shared_memory','real_time_tools','mpi_cmake_modules','serialization_utils',
+            'pybind11','signal_handler']
+
+ROBPROJ:
+    parent_projects: ['CORE']
+    repos: ['robproj']

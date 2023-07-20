@@ -1,0 +1,48 @@
+googletest:
+    path: src
+    origin: https://github.com/google/googletest.git
+    branch: main
+
+ament_cmake:
+   path: src
+   origin: https-ament
+   branch: humble
+
+ament_package:
+   path: src
+   origin: https-ament
+   branch: humble
+
+ament_googletest:
+   path: src
+   origin: https://github.com/ament/googletest.git
+   branch: humble
+
+serialization_utils:
+   path: src
+   origin: mpi-is
+
+shared_memory:
+    path: src
+    origin: mim
+
+real_time_tools:
+    path: src
+    origin: mim
+
+signal_handler:
+    path: src
+    origin: mpi-is
+
+pybind11:
+    path: src
+    origin: https-pybind
+    tag: v2.10.2
+
+mpi_cmake_modules:
+    path: src
+    origin: mim
+
+robproj:
+    path: src
+    origin: mpi-is

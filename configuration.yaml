@@ -1,0 +1,11 @@
+origin_prefixes:
+    isr: 'git@github.com:intelligent-soft-robots/'
+    https-isr: 'https://github.com/intelligent-soft-robots/'
+    mim: 'git@github.com:machines-in-motion/'
+    https-mim: 'https://github.com/machines-in-motion/'
+    mpi-is: 'git@github.com:MPI-IS/'
+    https-mpi-is: 'https://github.com/MPI-IS/'
+    robotics: 'git@gitlab.is.tuebingen.mpg.de:robotics/'
+    https-pybind: 'https://github.com/pybind/'
+    https-ament: 'https://github.com/ament/'
+    https-ros2: 'https://github.com/ros2/'
