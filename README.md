@@ -128,7 +128,9 @@ There is the issue that the spawned matplotlib window is difficult
 (impossible?) to exit. Close the terminal to terminate the program.
 
 
-### issues ?
+## Issues, realtime and more infos
+
+### executable hanging
 
 If something hangs, stop all the executables and delete the files
 
@@ -139,6 +141,17 @@ If something hangs, stop all the executables and delete the files
 ```
 
 They correspond to the shared memory used by all the program above.
+
+### realtime
+
+The code will compile for realtime if the terminal command `uname -a` displays something
+containing one of the following (see [mpi_cmake_module](https://github.com/machines-in-motion/mpi_cmake_modules/blob/master/cmake/os_detection.cmake)):
+- xenomai
+- lowlatency
+- preempt-rt
+- preempt_rt
+- preempt rt
+ 
 
 ### understand what is going on
 
